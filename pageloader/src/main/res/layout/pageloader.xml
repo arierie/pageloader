@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:id="@+id/progressPage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:visibility="gone"
+        tools:visibility="visible">
+
+        <LinearLayout
+            android:id="@+id/progressPageStart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:orientation="vertical"
+            tools:visibility="gone">
+
+            <ImageView
+                android:id="@+id/mImageLoading"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                tools:src="@drawable/ic_search" />
+
+            <TextView
+                android:id="@+id/mTextLoading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                tools:text="@string/loading_text" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/progressPageFailed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:orientation="vertical"
+            tools:visibility="visible">
+
+            <ImageView
+                android:id="@+id/mImageError"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                tools:src="@drawable/ic_not_found" />
+
+            <TextView
+                android:id="@+id/mTextError"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                tools:text="@string/error_text" />
+        </LinearLayout>
+    </RelativeLayout>
+</merge>

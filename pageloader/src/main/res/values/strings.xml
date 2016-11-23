@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PageLoader</string>
+    <string name="loading_text">Please wait...</string>
+    <string name="error_text">Something Happened</string>
+    <string name="error_image_fail">"Something was wrong with your error image"</string>
+    <string name="loading_image_fail">"Something was wrong with your loading image"</string>
+</resources>

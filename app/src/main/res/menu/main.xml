@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/anim1"
+        android:title="Animation 1" />
+    <item android:id="@+id/anim2"
+        android:title="Animation 2" />
+    <item android:id="@+id/anim3"
+        android:title="Animation 3" />
+    <item android:id="@+id/anim4"
+        android:title="Animation 4" />
+    <item android:id="@+id/anim5"
+        android:title="Animation 5" />
+    <item android:id="@+id/fullpage"
+        android:title="Enter Full Page" />
+</menu>
