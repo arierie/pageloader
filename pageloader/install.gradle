@@ -1,0 +1,39 @@
+apply plugin: 'com.github.dcendents.android-maven'
+
+group = 'id.arieridwan'
+
+install {
+    repositories.mavenInstaller {
+        pom {
+            project {
+                packaging 'aar'
+                groupId 'id.arieridwan'
+                artifactId 'pageloader'
+
+                name 'PageLoader'
+                description 'Simple but useful android library for loading page.'
+                url 'https://github.com/arieridwan8/pageloader'
+
+                licenses {
+                    license {
+                        name 'The Apache Software License, Version 2.0'
+                        url 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+                    }
+                }
+                developers {
+                    developer {
+                        id 'arieridwan8'
+                        name 'Arie Ridwansyah'
+                        email 'arieridwansyah@gmail.com'
+                    }
+                }
+                scm {
+                    connection 'https://github.com/arieridwan8/pageloader.git'
+                    developerConnection 'https://github.com/arieridwan8/pageloader.git'
+                    url 'https://github.com/arieridwan8/pageloader'
+
+                }
+            }
+        }
+    }
+}
