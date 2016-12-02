@@ -1,5 +1,5 @@
-# pageloader
-PageLoader is a simple android library for loading page with easy customization.Built by [Arie Ridwansyah](https://github.com/arieridwan8).
+# PageLoader
+PageLoader is a simple android library for loading page with easy customization. Built by [Arie Ridwansyah](https://github.com/arieridwan8).
 ## Setup
 Add __PageLoader__ to your dependencies block:
 ```groovy
@@ -63,6 +63,13 @@ And then, you can using custom animation or custom font
 pageLoader.setCustomAnimation(myAnimation);
 pageLoader.setCustomFont(myTypeface);
 ```
+## To Do 
+- [ ] setFontDefaultEnabled
+- [ ] setLoadingProgressModeEnabled
 
+## Credits
+Arie Ridwansyah
 
+## License
+PageLoader is [Apache License 2.0](https://github.com/arieridwan8/pageloader/blob/master/LICENSE.txt).
 
