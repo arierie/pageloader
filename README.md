@@ -34,6 +34,15 @@ pageLoader.startProgress();
     }
 }
 ```
+Set onClickListener  when error page is displayed
+```java
+pageLoader.setOnRetry(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                pageLoader.startProgress();
+            }
+        });
+```
 You can easily customize the text for loading page or when displaying the error page then change the dimensions with following attribute
 ```xml
 app:setLoadingText="Please wait..."
@@ -71,5 +80,5 @@ pageLoader.setCustomFont(myTypeface);
 Arie Ridwansyah
 
 ## License
-PageLoader is [Apache License 2.0](https://github.com/arieridwan8/pageloader/blob/master/LICENSE.txt).
+PageLoader is under [Apache License 2.0](https://github.com/arieridwan8/pageloader/blob/master/LICENSE.txt).
 
