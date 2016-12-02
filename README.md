@@ -1,11 +1,6 @@
 # PageLoader
 PageLoader is a simple android library for loading page with easy customization. Built by [Arie Ridwansyah](https://github.com/arieridwan8).
-## Screenshot dan demo dari PageLoader
-<p>
-<img src="https://github.com/arieridwan8/pageloader/blob/master/screenshots/image_zero.png" alt="Sample Apps" width="250"/>
-<img src="https://github.com/arieridwan8/pageloader/blob/master/screenshots/image_one.png" alt="Loading Page" width="250"/>
-<img src="https://github.com/arieridwan8/pageloader/blob/master/screenshots/image_two.png" alt="Error Page" width="250"/>
-</p>
+## Demo
 ![PageLoader Demo](screenshots/demo.gif)
 ## Setup
 Add __PageLoader__ to your dependencies block:
@@ -79,6 +74,12 @@ And then, you can using custom animation or custom font
 pageLoader.setCustomAnimation(myAnimation);
 pageLoader.setCustomFont(myTypeface);
 ```
+## Screenshot
+<p>
+<img src="https://github.com/arieridwan8/pageloader/blob/master/screenshots/image_one.png" alt="Loading Page" width="250"/>
+<img src="https://github.com/arieridwan8/pageloader/blob/master/screenshots/image_two.png" alt="Error Page" width="250"/>
+</p>
+
 ## To Do 
 - [ ] setDefaultFontEnabled
 - [ ] setLoadingProgressModeEnabled
