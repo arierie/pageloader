@@ -16,7 +16,7 @@ Add a `PageLoader` to your layout just like any other view.
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 ```
-Define the event when the page is loading or displaying error page
+Define the action to load the page or displaying error page on the event
 ```java
 SomeMethod(){
 pageLoader.startProgress();
