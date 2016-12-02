@@ -73,7 +73,7 @@ pageLoader.setCustomAnimation(myAnimation);
 pageLoader.setCustomFont(myTypeface);
 ```
 ## To Do 
-- [ ] setFontDefaultEnabled
+- [ ] setDefaultFontEnabled
 - [ ] setLoadingProgressModeEnabled
 
 ## Credits
