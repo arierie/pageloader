@@ -76,7 +76,7 @@ pageLoader.setCustomFont(myTypeface);
 ```
 ## Screenshot
 <p>
-<img src="https://github.com/arieridwan8/pageloader/blob/master/screenshots/image_zero.pngg" alt="Sample Apps" width="250"/>
+<img src="https://github.com/arieridwan8/pageloader/blob/master/screenshots/image_zero.png" alt="Sample Apps" width="250"/>
 <img src="https://github.com/arieridwan8/pageloader/blob/master/screenshots/image_one.png" alt="Loading Page" width="250"/>
 <img src="https://github.com/arieridwan8/pageloader/blob/master/screenshots/image_two.png" alt="Error Page" width="250"/>
 </p>
