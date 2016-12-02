@@ -1,6 +1,5 @@
 # PageLoader
 PageLoader is a simple android library for loading page with easy customization. Built by [Arie Ridwansyah](https://github.com/arieridwan8).
-## Demo
 ![PageLoader Demo](screenshots/demo.gif)
 ## Setup
 Add __PageLoader__ to your dependencies block:
