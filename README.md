@@ -1,4 +1,6 @@
 # PageLoader
+ [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-PageLoader-blue.svg)](https://android-arsenal.com/details/1/4761)
+ 
 PageLoader is a simple android library for loading page with easy customization. Built by [Arie Ridwansyah](https://github.com/arieridwan8).
 
 ![PageLoader Demo](screenshots/demo.gif)
