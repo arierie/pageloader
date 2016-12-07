@@ -114,7 +114,7 @@ public class PageLoader extends RelativeLayout {
         if (i != 0) {
             textError.setTextSize(TypedValue.COMPLEX_UNIT_SP, i);
             textLoading.setTextSize(TypedValue.COMPLEX_UNIT_SP, i);
-            Toast.makeText(mContext,i+"",Toast.LENGTH_LONG).show();
+            //Toast.makeText(mContext,i+"",Toast.LENGTH_LONG).show();
         } else {
             textError.setTextSize(TypedValue.COMPLEX_UNIT_SP, 21);
             textLoading.setTextSize(TypedValue.COMPLEX_UNIT_SP, 21);
@@ -151,7 +151,7 @@ public class PageLoader extends RelativeLayout {
                         imageLoading.setBackground(d);
                     }
                     catch (Exception ee){
-                        Toast.makeText(mContext,getResources().getString(R.string.loading_image_fail),Toast.LENGTH_LONG).show();
+                        //Toast.makeText(mContext,getResources().getString(R.string.loading_image_fail),Toast.LENGTH_LONG).show();
                     }
                 }
             } else {
@@ -163,7 +163,7 @@ public class PageLoader extends RelativeLayout {
                         imageLoading.setBackgroundDrawable(d);
                     }
                     catch (Exception ee){
-                        Toast.makeText(mContext,getResources().getString(R.string.loading_image_fail),Toast.LENGTH_LONG).show();
+                        //Toast.makeText(mContext,getResources().getString(R.string.loading_image_fail),Toast.LENGTH_LONG).show();
                     }
                 }
             }
@@ -246,7 +246,7 @@ public class PageLoader extends RelativeLayout {
                         imageError.setBackground(d);
                     }
                     catch (Exception ee){
-                        Toast.makeText(mContext,getResources().getString(R.string.error_image_fail),Toast.LENGTH_LONG).show();
+                        //Toast.makeText(mContext,getResources().getString(R.string.error_image_fail),Toast.LENGTH_LONG).show();
                     }
                 }
             } else {
@@ -258,7 +258,7 @@ public class PageLoader extends RelativeLayout {
                         imageError.setBackgroundDrawable(d);
                     }
                     catch (Exception ee){
-                        Toast.makeText(mContext,getResources().getString(R.string.error_image_fail),Toast.LENGTH_LONG).show();
+                        //Toast.makeText(mContext,getResources().getString(R.string.error_image_fail),Toast.LENGTH_LONG).show();
                     }
                 }
             }
