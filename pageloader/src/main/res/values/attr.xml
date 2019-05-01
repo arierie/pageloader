@@ -11,8 +11,8 @@
         <!--loading-->
         <attr name="setLoadingText" format="string"/>
         <attr name="setLoadingImage" format="color|reference"/>
-        <attr name="setLoadingImageHeight" format="color|reference"/>
-        <attr name="setLoadingImageWidth" format="color|reference"/>
+        <attr name="setLoadingImageHeight" format="dimension"/>
+        <attr name="setLoadingImageWidth" format="dimension"/>
         <attr name="setLoadingAnimationMode" format="string"/>
     </declare-styleable>
 </resources>

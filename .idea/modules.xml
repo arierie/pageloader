@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Codes-pageloader.iml" filepath="$PROJECT_DIR$/Codes-pageloader.iml" />
       <module fileurl="file://$PROJECT_DIR$/PageLoaderSample.iml" filepath="$PROJECT_DIR$/PageLoaderSample.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/pageloader/pageloader.iml" filepath="$PROJECT_DIR$/pageloader/pageloader.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pageloader/pageloader-pageloader.iml" filepath="$PROJECT_DIR$/pageloader/pageloader-pageloader.iml" />
     </modules>
   </component>
 </project>
