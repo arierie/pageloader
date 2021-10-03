@@ -8,7 +8,7 @@ PageLoader is a simple android library for loading page with easy customization.
 Add __PageLoader__ to your dependencies block:
 ```groovy
 dependencies {
-    compile 'id.arieridwan:pageloader:0.0.2'
+    implementation 'id.arieridwan:pageloader:0.0.2'
 }
 ```
 ## Usage
